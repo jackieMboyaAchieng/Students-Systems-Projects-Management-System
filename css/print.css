@@ -1,0 +1,28 @@
+@media print{
+ table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 5px;
+    page-break-inside: auto;
+    
+}
+
+ table th {
+    background-color: #0B1A0B;
+    color: #ffffff;
+    padding: 5px;
+        page-break-inside: avoid;
+}
+
+ table td {
+    border: solid 2px #0B1A0B;
+    padding: 5px;
+        page-break-inside: avoid;
+}
+#print {
+    visibility: none;
+}
+
+ 
+
+}
